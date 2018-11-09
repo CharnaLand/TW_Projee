@@ -1,0 +1,149 @@
+nav #meniuPrincipal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    background-color: #f1f1f1;
+    overflow:hidden;
+}
+
+nav{
+    
+    background-color:aliceblue;
+}
+
+#mareTitlu {
+    padding: 20px;
+    background-image: url(../Poze/title_gradient.jpg);
+    text-align:left;
+    font: bold  40px Cursive;
+}
+
+ul#meniuPrincipal li{
+    display: inline;
+    float: left;
+}
+
+
+nav img
+{
+    height: 130px;
+    display: block;
+    position:absolute;
+    right: 30px; 
+    top: 10px;
+}
+
+.itemMenu {
+    font-size: 20px;
+    display: block;
+    color: #000000;
+    padding-left: 20px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.dropDown{
+    position: relative;
+    display:inline-block;
+    float: left;
+}
+
+.menuLink{
+    color: darkblue;
+    text-decoration:    none;
+}
+
+.itemMenu:hover {
+    background-color: #0044ff;
+    color: navajowhite;
+    
+    
+}
+
+.itemMenu:hover .menuLink{
+    color:antiquewhite;
+}
+
+
+.dropDownContent{
+    display:none;
+    position: absolute;
+    left: auto;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+a#dropDown:hover .dropDownContent{
+    display: block;
+}
+
+/* END OF NAV */
+
+/* SECTIONS */
+
+body {
+    background: top right no-repeat;
+    background-image: url(../Poze/background_gradient.jpg);
+    background-attachment:fixed;
+    
+}
+
+
+.sectionBlock  {
+    display:inline-block;
+    height: auto;
+    max-height: none;
+}
+
+
+.articleBlock{
+    display:inherit;
+    padding: 5px;
+    margin: 35px;
+    background-image: url(../Poze/greenish_gradient.jpg);
+    background-position:center;
+    vertical-align:middle;
+    
+}
+
+section:nth-of-type(2n) article {
+    width: 70%;
+   float: right;
+}
+
+section:nth-of-type(2n+1) article {
+    width: 70%;
+    float: left;
+}
+
+
+.sectionImage {
+    padding: 5px;
+    margin: 35px;
+    width: 15%;
+    height: auto;
+    border: 1px solid aquamarine;
+    vertical-align:middle;
+    
+    position:inherit;
+    
+    visibility: hidden;
+}
+
+section:nth-of-type(2n) .sectionImage{
+    left: 0;
+}
+
+
+section:nth-of-type(2n+1) .sectionImage{
+    right: 0;
+    border-color: darkblue;
+}
+
+
+section:hover img{
+    visibility:visible;
+}
