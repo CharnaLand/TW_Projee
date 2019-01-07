@@ -38,14 +38,15 @@ nav img
 
 body {
     background-image: url(Poze/purpleish_gradient.svg);
-    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
     align-content: center;
 }
 
 .itemMenu {
     font-size: 20px;
     display: block;
-    color: #000000;
+    color: darkblue;
     padding-left: 20px;
     padding: 10px 16px;
     text-decoration: none;
@@ -80,7 +81,6 @@ body {
     right: 0;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -127,4 +127,33 @@ footer {
     position: absolute;
     bottom: 0;
 
+}
+
+
+/* TABLE */
+
+
+table{
+vertical-align: middle;
+
+}
+
+table,tr,td {
+    border-collapse: collapse;
+    border: 5px solid aquamarine;
+    align-content: center;
+    color: ghostwhite;
+    text-align: center;
+}
+
+#tableHead {
+    font-size: 25px;
+}
+
+#forMiddle {
+    vertical-align: middle;
+}
+
+#tableContainer {
+    align-content:center;
 }

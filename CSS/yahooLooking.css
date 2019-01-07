@@ -1,3 +1,5 @@
+/* NAV */
+
 nav #meniuPrincipal {
     list-style-type: none;
     margin: 0;
@@ -51,7 +53,7 @@ nav img
 
 .menuLink{
     color: darkblue;
-    text-decoration:none;
+    text-decoration:    none;
 }
 
 .itemMenu:hover {
@@ -76,85 +78,85 @@ nav img
 }
 
 
-a#dropDown:hover .dropDownContent{
+a.dropDown:hover .dropDownContent{
     display: block;
 }
 
-/* END OF NAV */
 
-/* SECTIONS */
+/* END OF NAV */
 
 body {
     background: top right no-repeat;
-    background-image: url(../Poze/background_gradient.jpg);
+    background-image: url(../Poze/red_gradient.png);
     background-attachment:fixed;
     
 }
 
 
-.sectionBlock  {
-    display:inline-block;
-    height: auto;
-    max-height: none;
+/* GALERIE */
+
+figure {
+    display: block;
+    padding: 70px;;
 }
 
+.chooseWeapone {
+    height: 200px;
+    display: block;
+    margin: 20px;
+    width: auto;
+}
 
-.articleBlock{
-    display:inherit;
-    padding: 5px;
-    margin: 35px;
-    background-image: url(../Poze/greenish_gradient.jpg);
-    background-position:center;
-    vertical-align:middle;
+figcaption {
+    display: inline-block;
+    color: floralwhite;
+    vertical-align: top;
+    text-align: center;
+}
+
+.poza {
+    border: 1px solid darkgrey;
+    display: block;
     
-}
-
-section:nth-of-type(2n) article {
-    width: 70%;
-   float: right;
-}
-
-section:nth-of-type(2n+1) article {
-    width: 70%;
+    height: 300px;
+    margin: 30px;
+    
+    padding: 40px;
     float: left;
+    background-color: blueviolet;
 }
 
-span {
-    font-style: oblique;
-}
-
-.sectionImage {
-    padding: 5px;
-    margin: 35px;
-    width: 15%;
-    height: auto;
-    border: 1px solid aquamarine;
-    vertical-align:middle;
+.poza:hover .chooseWeapone{
+    height: 215px;
+    width: auto;
     
-    position:inherit;
-    
-    visibility: hidden;
+}
+/* HALP MATERIAL */
+
+
+/* PUI */
+#facePui {
+    float: left;
+    display: block;
+    position: relative;
 }
 
-section:nth-of-type(2n) .sectionImage{
-    left: 0;
+.puiDeDinte {
+    margin: 5px;
 }
 
-
-section:nth-of-type(2n+1) .sectionImage{
-    right: 0;
-    border-color: darkblue;
-}
-
-
-section:hover img{
-    visibility:visible;
-}
-
-
+/* MEDIA SHEET */
 @media only screen and (max-width: 1000px) {
-    section article {
-        width: 100%
-        float: none;
+    body {
+        background-image: url();
+        background-color: mediumpurple;
     }
+}
+
+#bibliografie {
+    
+    border: 1px solid beige ;
+    background-color: darkorchid;
+    color:bisque;
+    width: 60%;
 }

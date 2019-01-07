@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>Interactive stuff</title>
+    <script src="../JS/yahooWorking.js"></script>
+    <link rel="icon" href="../Poze/washing_thooth.png">
+    <link rel="stylesheet" href="../CSS/yahooLooking.css">
+</head>
+
+<body>
+        <nav>
+        <div id="mareTitlu">Pasta de dinti</div><img src="../Poze/pasta_galbena.png">
+        <ul id="meniuPrincipal">
+            <a class="menuLink" href="../mainHtml.html"><li class="itemMenu">Acasa</li></a>  
+            <a class="menuLink" href="istoricTab.html"><li class="itemMenu">Istoric</li></a>
+            <a  class="menuLink" class="dropDown" href="#"><li  class="itemMenu" >Extras 
+                    <ul class="dropDownContent">
+                    <li><a  class="subMenuLink">Mistere</a></li>
+                    <li><a  class="subMenuLink">Ghicitori</a></li>
+                    <li><a  class="subMenuLink">Interactive</a></li>
+                    </ul>
+               </li></a>
+            <a  class="menuLink" href="#bibl"><li class="itemMenu" >Bibliografie</li></a>
+            
+
+        </ul>
+    
+    </nav>
+    
+    
+    <br>
+    
+    <h3>Animatie spalat pe dinti, cu buton.</h3>
+<div id="mouthWash">
+    <img id="brushImg" src="../Poze/Brush/mode1_1.png">
+    <br>
+    <input type="button" value="Brush" id="brushBtn">
+    <input type="button" value="Change sides !" id="brushChangeBtn">
+    <br><br>
+</div>
+    
+    <br>
+
+<div id="votingStuff">
+    <h3>Care e stilul tau preferat de spalat pe dinti?</h3>
+    <form>
+    
+        <input type="radio" name="una" value="primul">Primul Stil<br>
+        <input type="radio" name="una" value="doilea">Al doilea Stil<br>
+        <input type="radio" name="una" value="treilea">Al treilea Stil<br>
+    
+        <button id="voteBtn" onclick=alert("Nice")>Choose!</button>
+    </form>
+</div>
+
+    <br>
+
+<div id="photoGalerry">
+    <h3>Pick up your weapon and fight !</h3>
+    
+    <figure>
+            <div class="poza">
+    <img class="chooseWeapone" id="pastaAndPerie" src="../Poze/pasta_si_periuta.jpg">
+    <figcaption>Lance vrajita</figcaption>
+            </div>
+        
+            <div class="poza">
+    <img class="chooseWeapone" id="apaDeGura" src="../Poze/mouth_wash.jpg">
+    <figcaption>Potiune magica</figcaption>
+            </div>
+        
+            <div class="poza">
+    <img class="chooseWeapone" id="ataDentara" src="../Poze/dental_floss.jpg">
+    <figcaption>Bici fermecat</figcaption>
+            </div>
+        
+    </figure>
+    <br><br><br><br>
+</div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h3>AddElement si removeElement</h3>
+<div id="facePui">
+    <button id="puiPlus">Face pui</button>
+    <button id="puiMinus">Pleaca pui</button>
+    <br><br>
+    <div id="tarcPui">
+    <button class="puiDeDinte"><img height="50px" src="../Poze/shiny_thooth.png"></button>
+    </div>
+</div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <h3>Alert de input actionat de buton de tip input</h3>
+<div id="sayHello">
+    <input type="name" id="helloField" value="Say hello ! :D">
+    <input type="button" id="helloBtn" value="Press!">
+</div>
+    
+    <br><br><br>
+    <h3 id="bibl">Bibliografie</h3>
+    <div id="bibliografie">
+        <ol type="i">
+    <li>https://www.scienceabc.com/eyeopeners/whats-the-difference-between-all-those-different-types-of-toothpaste.html</li>
+    <li>https://www.nwradu.ro/2013/09/misterele-pastei-dinti/</li>
+    <li>http://www.retail.ro/articole/rsecomandari/lucruri-pe-care-nu-le-stiai-despre-pasta- de-dinti-570.html</li>
+    <li>https://ro.wikipedia.org/wiki/Past%C4%83_de_din%C8%9Bi</li>        <li>>https://www.medici-stomatologi.ro/infodent/ce-contine-o-pasta-de-dinti-</li>
+            
+        </ol>
+    </div>
+    
+</body>
+
+</html>
